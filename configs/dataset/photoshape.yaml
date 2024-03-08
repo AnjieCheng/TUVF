@@ -1,0 +1,16 @@
+name: photoshape_${dataset.resolution}
+path: /home/anjie/Downloads/CADTextures/Photoshape/
+sampling:
+  fov: 35
+  ray_start: 1.15
+  ray_end: 2.25
+  dist: custom
+  radius: 1.75
+  horizontal_stddev: 3.141592653589793
+  vertical_stddev: 0.2617993877991494
+  horizontal_mean: 3.141592653589793
+  vertical_mean: 1.3089969389957472
+cube_scale: 2.1
+white_back: true
+last_back: false
+random_background: false

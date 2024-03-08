@@ -1,0 +1,2 @@
+python_bin: /home/anjie/miniconda3/envs/tuvf/bin/python
+project_path: ${hydra:runtime.cwd}

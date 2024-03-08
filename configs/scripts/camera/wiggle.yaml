@@ -1,0 +1,7 @@
+ 
+
+name: wiggle
+num_frames: 8 #16
+yaw_left: 0 # 0 # -1.57
+yaw_right: 6.28 # 0 # 1.57
+pitch_diff: 0 # 0 # 0.5

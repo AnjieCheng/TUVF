@@ -1,0 +1,13 @@
+name: p128_60_3000
+patch:
+  enabled: true
+  distribution: beta
+  alpha: 1.0
+  beta_val_start: 0.001
+  beta_val_end: 0.8
+  patch_params_cond: true # Patch parameters pos-enc embeddings dimensionality
+  resolution: 128 # default 64 / 16 works for carla64
+
+loss_kwargs:
+  blur_init_sigma: 60   # [64]: (35, 3000)
+  blur_fade_kimg: 3000

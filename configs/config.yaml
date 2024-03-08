@@ -1,0 +1,14 @@
+defaults:
+  - model/base.yaml
+  - model: canograf
+
+  # Import dataset common and overwrite it with the custom one
+  - dataset/base.yaml
+  - dataset: compcars
+
+  - training/base.yaml
+  - training: patch_beta
+
+  - env/base.yaml
+  - env: local
+  - infra.yaml
